@@ -5620,7 +5620,7 @@
       "format": "esm"
     },
     "node_modules/@angular/core/fesm2022/core.mjs": {
-      "bytes": 1391847,
+      "bytes": 1392036,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/primitives/signals.mjs",
@@ -5672,7 +5672,7 @@
       "format": "esm"
     },
     "node_modules/@angular/common/fesm2022/http.mjs": {
-      "bytes": 110783,
+      "bytes": 110928,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -5713,7 +5713,7 @@
       "format": "esm"
     },
     "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs": {
-      "bytes": 78785,
+      "bytes": 78827,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -6061,7 +6061,7 @@
       "format": "esm"
     },
     "angular:server-render-utils:angular:server-render-utils": {
-      "bytes": 4005,
+      "bytes": 4212,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -10511,7 +10511,7 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 82091
+          "bytesInOutput": 82339
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 5870
@@ -10520,7 +10520,7 @@
           "bytesInOutput": 4656
         },
         "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs": {
-          "bytesInOutput": 11619
+          "bytesInOutput": 11630
         },
         "node_modules/@angular/router/fesm2022/router.mjs": {
           "bytesInOutput": 61606
@@ -10538,7 +10538,7 @@
           "bytesInOutput": 37
         }
       },
-      "bytes": 208618
+      "bytes": 208877
     },
     "app.component.css": {
       "imports": [],
@@ -10580,7 +10580,7 @@
     "render-utils.server.mjs": {
       "imports": [
         {
-          "path": "chunk-YGUSPAT3.mjs",
+          "path": "chunk-3HYKE6RJ.mjs",
           "kind": "import-statement"
         },
         {
@@ -10598,19 +10598,19 @@
       "entryPoint": "angular:server-render-utils:angular:server-render-utils",
       "inputs": {
         "angular:server-render-utils:angular:server-render-utils": {
-          "bytesInOutput": 1059
+          "bytesInOutput": 1131
         }
       },
-      "bytes": 1386
+      "bytes": 1458
     },
     "main.server.mjs": {
       "imports": [
         {
-          "path": "chunk-FB5MW4DU.mjs",
+          "path": "chunk-WHTX5267.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-YGUSPAT3.mjs",
+          "path": "chunk-3HYKE6RJ.mjs",
           "kind": "import-statement"
         },
         {
@@ -10628,11 +10628,11 @@
     "server.mjs": {
       "imports": [
         {
-          "path": "chunk-FB5MW4DU.mjs",
+          "path": "chunk-WHTX5267.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-YGUSPAT3.mjs",
+          "path": "chunk-3HYKE6RJ.mjs",
           "kind": "import-statement"
         },
         {
@@ -11747,10 +11747,10 @@
       },
       "bytes": 1109413
     },
-    "chunk-FB5MW4DU.mjs": {
+    "chunk-WHTX5267.mjs": {
       "imports": [
         {
-          "path": "chunk-YGUSPAT3.mjs",
+          "path": "chunk-3HYKE6RJ.mjs",
           "kind": "import-statement"
         }
       ],
@@ -11776,7 +11776,7 @@
       },
       "bytes": 20213
     },
-    "chunk-YGUSPAT3.mjs": {
+    "chunk-3HYKE6RJ.mjs": {
       "imports": [
         {
           "path": "chunk-KRLCULJA.mjs",
@@ -12084,7 +12084,7 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 97119
+          "bytesInOutput": 97372
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 7349
@@ -12093,7 +12093,7 @@
           "bytesInOutput": 4659
         },
         "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs": {
-          "bytesInOutput": 11652
+          "bytesInOutput": 11663
         },
         "node_modules/@angular/animations/fesm2022/animations.mjs": {
           "bytesInOutput": 3305
@@ -12111,7 +12111,7 @@
           "bytesInOutput": 61876
         }
       },
-      "bytes": 511293
+      "bytes": 511557
     },
     "chunk-53JWIC36.mjs": {
       "imports": [
