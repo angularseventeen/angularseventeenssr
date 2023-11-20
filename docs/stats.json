@@ -5620,7 +5620,7 @@
       "format": "esm"
     },
     "node_modules/@angular/core/fesm2022/core.mjs": {
-      "bytes": 1392036,
+      "bytes": 1392507,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/primitives/signals.mjs",
@@ -5646,7 +5646,7 @@
       "format": "esm"
     },
     "node_modules/@angular/common/fesm2022/common.mjs": {
-      "bytes": 274100,
+      "bytes": 274861,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -5821,7 +5821,7 @@
       "format": "esm"
     },
     "src/app/app.component.ts": {
-      "bytes": 23118,
+      "bytes": 23145,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -10511,7 +10511,7 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 82339
+          "bytesInOutput": 82348
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 5870
@@ -10532,7 +10532,7 @@
           "bytesInOutput": 33
         },
         "src/app/app.component.ts": {
-          "bytesInOutput": 19947
+          "bytesInOutput": 19938
         },
         "src/main.ts": {
           "bytesInOutput": 37
@@ -10580,7 +10580,7 @@
     "render-utils.server.mjs": {
       "imports": [
         {
-          "path": "chunk-3HYKE6RJ.mjs",
+          "path": "chunk-YDDSDMQW.mjs",
           "kind": "import-statement"
         },
         {
@@ -10606,11 +10606,11 @@
     "main.server.mjs": {
       "imports": [
         {
-          "path": "chunk-WHTX5267.mjs",
+          "path": "chunk-LHT367ZI.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-3HYKE6RJ.mjs",
+          "path": "chunk-YDDSDMQW.mjs",
           "kind": "import-statement"
         },
         {
@@ -10628,11 +10628,11 @@
     "server.mjs": {
       "imports": [
         {
-          "path": "chunk-WHTX5267.mjs",
+          "path": "chunk-LHT367ZI.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-3HYKE6RJ.mjs",
+          "path": "chunk-YDDSDMQW.mjs",
           "kind": "import-statement"
         },
         {
@@ -11747,10 +11747,10 @@
       },
       "bytes": 1109413
     },
-    "chunk-WHTX5267.mjs": {
+    "chunk-LHT367ZI.mjs": {
       "imports": [
         {
-          "path": "chunk-3HYKE6RJ.mjs",
+          "path": "chunk-YDDSDMQW.mjs",
           "kind": "import-statement"
         }
       ],
@@ -11759,7 +11759,7 @@
       ],
       "inputs": {
         "src/app/app.component.ts": {
-          "bytesInOutput": 19878
+          "bytesInOutput": 19880
         },
         "src/app/app.routes.ts": {
           "bytesInOutput": 9
@@ -11774,9 +11774,9 @@
           "bytesInOutput": 22
         }
       },
-      "bytes": 20213
+      "bytes": 20215
     },
-    "chunk-3HYKE6RJ.mjs": {
+    "chunk-YDDSDMQW.mjs": {
       "imports": [
         {
           "path": "chunk-KRLCULJA.mjs",
@@ -12084,7 +12084,7 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 97372
+          "bytesInOutput": 97365
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 7349
@@ -12111,7 +12111,7 @@
           "bytesInOutput": 61876
         }
       },
-      "bytes": 511557
+      "bytes": 511550
     },
     "chunk-53JWIC36.mjs": {
       "imports": [
