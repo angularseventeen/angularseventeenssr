@@ -61,3 +61,52 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.21
+$ ng build --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true
+- Building...
+
+
+  polyfills.js  32.7kb
+
+
+  polyfills.server.mjs  261.1kb
+
+● [DEBUG] Lookbehind assertions in regular expressions are not available in the configured target environment ("chrome119.0", "edge119.0", "firefox115.0", "ios16.0", "node20.9.0", "safari16.0" + 5 overrides) [unsupported-regexp]
+
+    node_modules/critters/dist/critters.mjs:1308:30:
+      1308 │           sel = sel.replace(/(?<!\\)::?[a-z-]+(?![a-z-(])/gi, ''...
+           ╵                               ~~~
+
+  This regular expression literal has been converted to a "new RegExp()" constructor to avoid generating code with a syntax error. However, you will need to include a polyfill for "RegExp" for your code to have the correct behavior at run-time.
+
+● [DEBUG] This call to "require" will not be bundled because the argument is not a string literal [unsupported-require-call]
+
+    node_modules/express/lib/view.js:72:13:
+      72 │     var fn = require(mod).__express;
+         ╵              ~~~~~~~
+
+
+  main.js  208.0kb
+
+
+  server.mjs                 1.0mb ⚠️
+  chunk-4SJENGHY.mjs       503.6kb
+  chunk-3AZ4CPHO.mjs        19.7kb
+  chunk-O73ZHKXN.mjs        11.8kb
+  chunk-VVCT4QZE.mjs         2.5kb
+  render-utils.server.mjs    1.4kb
+  main.server.mjs            149b 
+
+Prerendered 1 static route.
+
+
+Initial Chunk Files | Names         |  Raw Size | Estimated Transfer Size
+main.js             | main          | 208.00 kB |                57.40 kB
+polyfills.js        | polyfills     |  32.69 kB |                10.59 kB
+styles.css          | styles        |   0 bytes |                 0 bytes
+
+                    | Initial Total | 240.69 kB |                67.99 kB
+
+Application bundle generation complete. [10.217 seconds]
+Done in 10.90s.
+```
