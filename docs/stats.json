@@ -7776,7 +7776,7 @@
       "format": "esm"
     },
     "node_modules/@angular/ssr/fesm2022/ssr.mjs": {
-      "bytes": 13100,
+      "bytes": 13337,
       "imports": [
         {
           "path": "node_modules/@angular/platform-server/fesm2022/platform-server.mjs",
@@ -11506,7 +11506,7 @@
           "bytesInOutput": 50
         },
         "node_modules/@angular/ssr/fesm2022/ssr.mjs": {
-          "bytesInOutput": 5491
+          "bytesInOutput": 5801
         },
         "node_modules/critters/dist/critters.mjs": {
           "bytesInOutput": 16490
@@ -11635,7 +11635,7 @@
           "bytesInOutput": 699
         }
       },
-      "bytes": 1099836
+      "bytes": 1100146
     },
     "chunk-3AZ4CPHO.mjs": {
       "imports": [
