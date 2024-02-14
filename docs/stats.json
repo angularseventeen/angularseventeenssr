@@ -6813,12 +6813,12 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/tokenize.js": {
+    "node_modules/critters/node_modules/postcss/lib/tokenize.js": {
       "bytes": 6707,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/terminal-highlight.js": {
+    "node_modules/critters/node_modules/postcss/lib/terminal-highlight.js": {
       "bytes": 1388,
       "imports": [
         {
@@ -6827,14 +6827,14 @@
           "original": "picocolors"
         },
         {
-          "path": "node_modules/postcss/lib/tokenize.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/tokenize.js",
           "kind": "require-call",
           "original": "./tokenize"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/css-syntax-error.js": {
+    "node_modules/critters/node_modules/postcss/lib/css-syntax-error.js": {
       "bytes": 2523,
       "imports": [
         {
@@ -6843,65 +6843,65 @@
           "original": "picocolors"
         },
         {
-          "path": "node_modules/postcss/lib/terminal-highlight.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/terminal-highlight.js",
           "kind": "require-call",
           "original": "./terminal-highlight"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/symbols.js": {
+    "node_modules/critters/node_modules/postcss/lib/symbols.js": {
       "bytes": 92,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/stringifier.js": {
+    "node_modules/critters/node_modules/postcss/lib/stringifier.js": {
       "bytes": 8270,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/stringify.js": {
+    "node_modules/critters/node_modules/postcss/lib/stringify.js": {
       "bytes": 216,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/stringifier.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringifier.js",
           "kind": "require-call",
           "original": "./stringifier"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/node.js": {
+    "node_modules/critters/node_modules/postcss/lib/node.js": {
       "bytes": 8778,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/symbols.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/symbols.js",
           "kind": "require-call",
           "original": "./symbols"
         },
         {
-          "path": "node_modules/postcss/lib/css-syntax-error.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/css-syntax-error.js",
           "kind": "require-call",
           "original": "./css-syntax-error"
         },
         {
-          "path": "node_modules/postcss/lib/stringifier.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringifier.js",
           "kind": "require-call",
           "original": "./stringifier"
         },
         {
-          "path": "node_modules/postcss/lib/stringify.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringify.js",
           "kind": "require-call",
           "original": "./stringify"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/declaration.js": {
+    "node_modules/critters/node_modules/postcss/lib/declaration.js": {
       "bytes": 497,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/node.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/node.js",
           "kind": "require-call",
           "original": "./node"
         },
@@ -7065,7 +7065,7 @@
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/previous-map.js": {
+    "node_modules/critters/node_modules/postcss/lib/previous-map.js": {
       "bytes": 3878,
       "imports": [
         {
@@ -7086,7 +7086,7 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/input.js": {
+    "node_modules/critters/node_modules/postcss/lib/input.js": {
       "bytes": 6201,
       "imports": [
         {
@@ -7110,17 +7110,17 @@
           "original": "nanoid/non-secure"
         },
         {
-          "path": "node_modules/postcss/lib/terminal-highlight.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/terminal-highlight.js",
           "kind": "require-call",
           "original": "./terminal-highlight"
         },
         {
-          "path": "node_modules/postcss/lib/css-syntax-error.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/css-syntax-error.js",
           "kind": "require-call",
           "original": "./css-syntax-error"
         },
         {
-          "path": "node_modules/postcss/lib/previous-map.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/previous-map.js",
           "kind": "require-call",
           "original": "./previous-map"
         },
@@ -7132,7 +7132,7 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/map-generator.js": {
+    "node_modules/critters/node_modules/postcss/lib/map-generator.js": {
       "bytes": 9734,
       "imports": [
         {
@@ -7151,55 +7151,55 @@
           "external": true
         },
         {
-          "path": "node_modules/postcss/lib/input.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/input.js",
           "kind": "require-call",
           "original": "./input"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/comment.js": {
+    "node_modules/critters/node_modules/postcss/lib/comment.js": {
       "bytes": 206,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/node.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/node.js",
           "kind": "require-call",
           "original": "./node"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/container.js": {
+    "node_modules/critters/node_modules/postcss/lib/container.js": {
       "bytes": 11233,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/symbols.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/symbols.js",
           "kind": "require-call",
           "original": "./symbols"
         },
         {
-          "path": "node_modules/postcss/lib/declaration.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/declaration.js",
           "kind": "require-call",
           "original": "./declaration"
         },
         {
-          "path": "node_modules/postcss/lib/comment.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/comment.js",
           "kind": "require-call",
           "original": "./comment"
         },
         {
-          "path": "node_modules/postcss/lib/node.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/node.js",
           "kind": "require-call",
           "original": "./node"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/document.js": {
+    "node_modules/critters/node_modules/postcss/lib/document.js": {
       "bytes": 780,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         },
@@ -7211,172 +7211,172 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/warn-once.js": {
+    "node_modules/critters/node_modules/postcss/lib/warn-once.js": {
       "bytes": 259,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/warning.js": {
+    "node_modules/critters/node_modules/postcss/lib/warning.js": {
       "bytes": 746,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/result.js": {
+    "node_modules/critters/node_modules/postcss/lib/result.js": {
       "bytes": 753,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/warning.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/warning.js",
           "kind": "require-call",
           "original": "./warning"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/at-rule.js": {
+    "node_modules/critters/node_modules/postcss/lib/at-rule.js": {
       "bytes": 476,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/root.js": {
+    "node_modules/critters/node_modules/postcss/lib/root.js": {
       "bytes": 1384,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/list.js": {
+    "node_modules/critters/node_modules/postcss/lib/list.js": {
       "bytes": 1247,
       "imports": [],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/rule.js": {
+    "node_modules/critters/node_modules/postcss/lib/rule.js": {
       "bytes": 576,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         },
         {
-          "path": "node_modules/postcss/lib/list.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/list.js",
           "kind": "require-call",
           "original": "./list"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/parser.js": {
+    "node_modules/critters/node_modules/postcss/lib/parser.js": {
       "bytes": 14980,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/declaration.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/declaration.js",
           "kind": "require-call",
           "original": "./declaration"
         },
         {
-          "path": "node_modules/postcss/lib/tokenize.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/tokenize.js",
           "kind": "require-call",
           "original": "./tokenize"
         },
         {
-          "path": "node_modules/postcss/lib/comment.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/comment.js",
           "kind": "require-call",
           "original": "./comment"
         },
         {
-          "path": "node_modules/postcss/lib/at-rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/at-rule.js",
           "kind": "require-call",
           "original": "./at-rule"
         },
         {
-          "path": "node_modules/postcss/lib/root.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/root.js",
           "kind": "require-call",
           "original": "./root"
         },
         {
-          "path": "node_modules/postcss/lib/rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/rule.js",
           "kind": "require-call",
           "original": "./rule"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/parse.js": {
+    "node_modules/critters/node_modules/postcss/lib/parse.js": {
       "bytes": 1049,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         },
         {
-          "path": "node_modules/postcss/lib/parser.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/parser.js",
           "kind": "require-call",
           "original": "./parser"
         },
         {
-          "path": "node_modules/postcss/lib/input.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/input.js",
           "kind": "require-call",
           "original": "./input"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/lazy-result.js": {
+    "node_modules/critters/node_modules/postcss/lib/lazy-result.js": {
       "bytes": 14146,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/symbols.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/symbols.js",
           "kind": "require-call",
           "original": "./symbols"
         },
         {
-          "path": "node_modules/postcss/lib/map-generator.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/map-generator.js",
           "kind": "require-call",
           "original": "./map-generator"
         },
         {
-          "path": "node_modules/postcss/lib/stringify.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringify.js",
           "kind": "require-call",
           "original": "./stringify"
         },
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         },
         {
-          "path": "node_modules/postcss/lib/document.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/document.js",
           "kind": "require-call",
           "original": "./document"
         },
         {
-          "path": "node_modules/postcss/lib/warn-once.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/warn-once.js",
           "kind": "require-call",
           "original": "./warn-once"
         },
         {
-          "path": "node_modules/postcss/lib/result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/result.js",
           "kind": "require-call",
           "original": "./result"
         },
         {
-          "path": "node_modules/postcss/lib/parse.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/parse.js",
           "kind": "require-call",
           "original": "./parse"
         },
         {
-          "path": "node_modules/postcss/lib/root.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/root.js",
           "kind": "require-call",
           "original": "./root"
         },
@@ -7388,98 +7388,98 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/no-work-result.js": {
+    "node_modules/critters/node_modules/postcss/lib/no-work-result.js": {
       "bytes": 2531,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/map-generator.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/map-generator.js",
           "kind": "require-call",
           "original": "./map-generator"
         },
         {
-          "path": "node_modules/postcss/lib/stringify.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringify.js",
           "kind": "require-call",
           "original": "./stringify"
         },
         {
-          "path": "node_modules/postcss/lib/warn-once.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/warn-once.js",
           "kind": "require-call",
           "original": "./warn-once"
         },
         {
-          "path": "node_modules/postcss/lib/parse.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/parse.js",
           "kind": "require-call",
           "original": "./parse"
         },
         {
-          "path": "node_modules/postcss/lib/result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/result.js",
           "kind": "require-call",
           "original": "./result"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/processor.js": {
+    "node_modules/critters/node_modules/postcss/lib/processor.js": {
       "bytes": 1744,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/no-work-result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/no-work-result.js",
           "kind": "require-call",
           "original": "./no-work-result"
         },
         {
-          "path": "node_modules/postcss/lib/lazy-result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/lazy-result.js",
           "kind": "require-call",
           "original": "./lazy-result"
         },
         {
-          "path": "node_modules/postcss/lib/document.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/document.js",
           "kind": "require-call",
           "original": "./document"
         },
         {
-          "path": "node_modules/postcss/lib/root.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/root.js",
           "kind": "require-call",
           "original": "./root"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/fromJSON.js": {
+    "node_modules/critters/node_modules/postcss/lib/fromJSON.js": {
       "bytes": 1576,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/declaration.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/declaration.js",
           "kind": "require-call",
           "original": "./declaration"
         },
         {
-          "path": "node_modules/postcss/lib/previous-map.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/previous-map.js",
           "kind": "require-call",
           "original": "./previous-map"
         },
         {
-          "path": "node_modules/postcss/lib/comment.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/comment.js",
           "kind": "require-call",
           "original": "./comment"
         },
         {
-          "path": "node_modules/postcss/lib/at-rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/at-rule.js",
           "kind": "require-call",
           "original": "./at-rule"
         },
         {
-          "path": "node_modules/postcss/lib/input.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/input.js",
           "kind": "require-call",
           "original": "./input"
         },
         {
-          "path": "node_modules/postcss/lib/root.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/root.js",
           "kind": "require-call",
           "original": "./root"
         },
         {
-          "path": "node_modules/postcss/lib/rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/rule.js",
           "kind": "require-call",
           "original": "./rule"
         },
@@ -7491,107 +7491,107 @@
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/postcss.js": {
+    "node_modules/critters/node_modules/postcss/lib/postcss.js": {
       "bytes": 2870,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/css-syntax-error.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/css-syntax-error.js",
           "kind": "require-call",
           "original": "./css-syntax-error"
         },
         {
-          "path": "node_modules/postcss/lib/declaration.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/declaration.js",
           "kind": "require-call",
           "original": "./declaration"
         },
         {
-          "path": "node_modules/postcss/lib/lazy-result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/lazy-result.js",
           "kind": "require-call",
           "original": "./lazy-result"
         },
         {
-          "path": "node_modules/postcss/lib/container.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/container.js",
           "kind": "require-call",
           "original": "./container"
         },
         {
-          "path": "node_modules/postcss/lib/processor.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/processor.js",
           "kind": "require-call",
           "original": "./processor"
         },
         {
-          "path": "node_modules/postcss/lib/stringify.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/stringify.js",
           "kind": "require-call",
           "original": "./stringify"
         },
         {
-          "path": "node_modules/postcss/lib/fromJSON.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/fromJSON.js",
           "kind": "require-call",
           "original": "./fromJSON"
         },
         {
-          "path": "node_modules/postcss/lib/document.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/document.js",
           "kind": "require-call",
           "original": "./document"
         },
         {
-          "path": "node_modules/postcss/lib/warning.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/warning.js",
           "kind": "require-call",
           "original": "./warning"
         },
         {
-          "path": "node_modules/postcss/lib/comment.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/comment.js",
           "kind": "require-call",
           "original": "./comment"
         },
         {
-          "path": "node_modules/postcss/lib/at-rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/at-rule.js",
           "kind": "require-call",
           "original": "./at-rule"
         },
         {
-          "path": "node_modules/postcss/lib/result.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/result.js",
           "kind": "require-call",
           "original": "./result.js"
         },
         {
-          "path": "node_modules/postcss/lib/input.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/input.js",
           "kind": "require-call",
           "original": "./input"
         },
         {
-          "path": "node_modules/postcss/lib/parse.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/parse.js",
           "kind": "require-call",
           "original": "./parse"
         },
         {
-          "path": "node_modules/postcss/lib/list.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/list.js",
           "kind": "require-call",
           "original": "./list"
         },
         {
-          "path": "node_modules/postcss/lib/rule.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/rule.js",
           "kind": "require-call",
           "original": "./rule"
         },
         {
-          "path": "node_modules/postcss/lib/root.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/root.js",
           "kind": "require-call",
           "original": "./root"
         },
         {
-          "path": "node_modules/postcss/lib/node.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/node.js",
           "kind": "require-call",
           "original": "./node"
         }
       ],
       "format": "cjs"
     },
-    "node_modules/postcss/lib/postcss.mjs": {
+    "node_modules/critters/node_modules/postcss/lib/postcss.mjs": {
       "bytes": 1001,
       "imports": [
         {
-          "path": "node_modules/postcss/lib/postcss.js",
+          "path": "node_modules/critters/node_modules/postcss/lib/postcss.js",
           "kind": "import-statement",
           "original": "./postcss.js"
         }
@@ -7758,7 +7758,7 @@
           "original": "dom-serializer"
         },
         {
-          "path": "node_modules/postcss/lib/postcss.mjs",
+          "path": "node_modules/critters/node_modules/postcss/lib/postcss.mjs",
           "kind": "import-statement",
           "original": "postcss"
         },
@@ -10490,7 +10490,7 @@
     "render-utils.server.mjs": {
       "imports": [
         {
-          "path": "chunk-TTZGUEMA.mjs",
+          "path": "chunk-32ZQW4YO.mjs",
           "kind": "import-statement"
         },
         {
@@ -10511,16 +10511,17 @@
           "bytesInOutput": 1131
         }
       },
-      "bytes": 1458
+      "bytes": 1458,
+      "ng-platform-server": true
     },
     "main.server.mjs": {
       "imports": [
         {
-          "path": "chunk-O2E4HVBW.mjs",
+          "path": "chunk-5X7FPWIP.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-TTZGUEMA.mjs",
+          "path": "chunk-32ZQW4YO.mjs",
           "kind": "import-statement"
         },
         {
@@ -10533,16 +10534,17 @@
       ],
       "entryPoint": "src/main.server.ts",
       "inputs": {},
-      "bytes": 149
+      "bytes": 149,
+      "ng-platform-server": true
     },
     "server.mjs": {
       "imports": [
         {
-          "path": "chunk-O2E4HVBW.mjs",
+          "path": "chunk-5X7FPWIP.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-TTZGUEMA.mjs",
+          "path": "chunk-32ZQW4YO.mjs",
           "kind": "import-statement"
         },
         {
@@ -10959,28 +10961,28 @@
         "node_modules/picocolors/picocolors.js": {
           "bytesInOutput": 1596
         },
-        "node_modules/postcss/lib/tokenize.js": {
+        "node_modules/critters/node_modules/postcss/lib/tokenize.js": {
           "bytesInOutput": 2088
         },
-        "node_modules/postcss/lib/terminal-highlight.js": {
+        "node_modules/critters/node_modules/postcss/lib/terminal-highlight.js": {
           "bytesInOutput": 714
         },
-        "node_modules/postcss/lib/css-syntax-error.js": {
+        "node_modules/critters/node_modules/postcss/lib/css-syntax-error.js": {
           "bytesInOutput": 1311
         },
-        "node_modules/postcss/lib/symbols.js": {
+        "node_modules/critters/node_modules/postcss/lib/symbols.js": {
           "bytesInOutput": 98
         },
-        "node_modules/postcss/lib/stringifier.js": {
+        "node_modules/critters/node_modules/postcss/lib/stringifier.js": {
           "bytesInOutput": 4138
         },
-        "node_modules/postcss/lib/stringify.js": {
+        "node_modules/critters/node_modules/postcss/lib/stringify.js": {
           "bytesInOutput": 114
         },
-        "node_modules/postcss/lib/node.js": {
+        "node_modules/critters/node_modules/postcss/lib/node.js": {
           "bytesInOutput": 4171
         },
-        "node_modules/postcss/lib/declaration.js": {
+        "node_modules/critters/node_modules/postcss/lib/declaration.js": {
           "bytesInOutput": 295
         },
         "node_modules/source-map-js/lib/base64.js": {
@@ -11019,64 +11021,64 @@
         "node_modules/nanoid/non-secure/index.cjs": {
           "bytesInOutput": 305
         },
-        "node_modules/postcss/lib/previous-map.js": {
+        "node_modules/critters/node_modules/postcss/lib/previous-map.js": {
           "bytesInOutput": 2310
         },
-        "node_modules/postcss/lib/input.js": {
+        "node_modules/critters/node_modules/postcss/lib/input.js": {
           "bytesInOutput": 2935
         },
-        "node_modules/postcss/lib/map-generator.js": {
+        "node_modules/critters/node_modules/postcss/lib/map-generator.js": {
           "bytesInOutput": 5548
         },
-        "node_modules/postcss/lib/comment.js": {
+        "node_modules/critters/node_modules/postcss/lib/comment.js": {
           "bytesInOutput": 140
         },
-        "node_modules/postcss/lib/container.js": {
+        "node_modules/critters/node_modules/postcss/lib/container.js": {
           "bytesInOutput": 5288
         },
-        "node_modules/postcss/lib/document.js": {
+        "node_modules/critters/node_modules/postcss/lib/document.js": {
           "bytesInOutput": 312
         },
-        "node_modules/postcss/lib/warn-once.js": {
+        "node_modules/critters/node_modules/postcss/lib/warn-once.js": {
           "bytesInOutput": 136
         },
-        "node_modules/postcss/lib/warning.js": {
+        "node_modules/critters/node_modules/postcss/lib/warning.js": {
           "bytesInOutput": 474
         },
-        "node_modules/postcss/lib/result.js": {
+        "node_modules/critters/node_modules/postcss/lib/result.js": {
           "bytesInOutput": 474
         },
-        "node_modules/postcss/lib/at-rule.js": {
+        "node_modules/critters/node_modules/postcss/lib/at-rule.js": {
           "bytesInOutput": 313
         },
-        "node_modules/postcss/lib/root.js": {
+        "node_modules/critters/node_modules/postcss/lib/root.js": {
           "bytesInOutput": 699
         },
-        "node_modules/postcss/lib/list.js": {
+        "node_modules/critters/node_modules/postcss/lib/list.js": {
           "bytesInOutput": 436
         },
-        "node_modules/postcss/lib/rule.js": {
+        "node_modules/critters/node_modules/postcss/lib/rule.js": {
           "bytesInOutput": 380
         },
-        "node_modules/postcss/lib/parser.js": {
+        "node_modules/critters/node_modules/postcss/lib/parser.js": {
           "bytesInOutput": 7330
         },
-        "node_modules/postcss/lib/parse.js": {
+        "node_modules/critters/node_modules/postcss/lib/parse.js": {
           "bytesInOutput": 675
         },
-        "node_modules/postcss/lib/lazy-result.js": {
+        "node_modules/critters/node_modules/postcss/lib/lazy-result.js": {
           "bytesInOutput": 7095
         },
-        "node_modules/postcss/lib/no-work-result.js": {
+        "node_modules/critters/node_modules/postcss/lib/no-work-result.js": {
           "bytesInOutput": 1452
         },
-        "node_modules/postcss/lib/processor.js": {
+        "node_modules/critters/node_modules/postcss/lib/processor.js": {
           "bytesInOutput": 1027
         },
-        "node_modules/postcss/lib/fromJSON.js": {
+        "node_modules/critters/node_modules/postcss/lib/fromJSON.js": {
           "bytesInOutput": 737
         },
-        "node_modules/postcss/lib/postcss.js": {
+        "node_modules/critters/node_modules/postcss/lib/postcss.js": {
           "bytesInOutput": 1266
         },
         "node_modules/color-name/index.js": {
@@ -11628,19 +11630,20 @@
         "node_modules/htmlparser2/lib/esm/index.js": {
           "bytesInOutput": 73
         },
-        "node_modules/postcss/lib/postcss.mjs": {
+        "node_modules/critters/node_modules/postcss/lib/postcss.mjs": {
           "bytesInOutput": 516
         },
         "server.ts": {
           "bytesInOutput": 699
         }
       },
-      "bytes": 1100146
+      "bytes": 1100146,
+      "ng-platform-server": true
     },
-    "chunk-O2E4HVBW.mjs": {
+    "chunk-5X7FPWIP.mjs": {
       "imports": [
         {
-          "path": "chunk-TTZGUEMA.mjs",
+          "path": "chunk-32ZQW4YO.mjs",
           "kind": "import-statement"
         }
       ],
@@ -11664,9 +11667,10 @@
           "bytesInOutput": 22
         }
       },
-      "bytes": 20215
+      "bytes": 20215,
+      "ng-platform-server": true
     },
-    "chunk-TTZGUEMA.mjs": {
+    "chunk-32ZQW4YO.mjs": {
       "imports": [
         {
           "path": "chunk-VVCT4QZE.mjs",
@@ -11992,7 +11996,8 @@
           "bytesInOutput": 63191
         }
       },
-      "bytes": 515402
+      "bytes": 515402,
+      "ng-platform-server": true
     },
     "chunk-O73ZHKXN.mjs": {
       "imports": [
@@ -12030,7 +12035,8 @@
           "bytesInOutput": 11978
         }
       },
-      "bytes": 12079
+      "bytes": 12079,
+      "ng-platform-server": true
     },
     "chunk-VVCT4QZE.mjs": {
       "imports": [],
@@ -12048,7 +12054,8 @@
         "k"
       ],
       "inputs": {},
-      "bytes": 2540
+      "bytes": 2540,
+      "ng-platform-server": true
     },
     "polyfills.server.mjs": {
       "imports": [
@@ -12086,7 +12093,8 @@
           "bytesInOutput": 0
         }
       },
-      "bytes": 267409
+      "bytes": 267409,
+      "ng-platform-server": true
     }
   }
 }
