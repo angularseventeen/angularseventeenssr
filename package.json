@@ -1,6 +1,6 @@
 {
   "name": "angularseventeen",
-  "version": "0.0.291",
+  "version": "0.0.292",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
