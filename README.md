@@ -63,3 +63,67 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.21
+$ ng build --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true
+- Building...
+
+
+  polyfills.js  32.7kb
+
+
+  polyfills.server.mjs  261.1kb
+
+● [DEBUG] Lookbehind assertions in regular expressions are not available in the configured target environment ("chrome120.0", "edge120.0", "firefox115.0", "ios16.0", "node20.9.0", "safari16.0" + 5 overrides) [unsupported-regexp]
+
+    node_modules/critters/dist/critters.mjs:1308:30:
+      1308 │           sel = sel.replace(/(?<!\\)::?[a-z-]+(?![a-z-(])/gi, ''...
+           ╵                               ~~~
+
+  This regular expression literal has been converted to a "new RegExp()" constructor to avoid generating code with a syntax error. However, you will need to include a polyfill for "RegExp" for your code to have the correct behavior at run-time.
+
+● [DEBUG] This call to "require" will not be bundled because the argument is not a string literal [unsupported-require-call]
+
+    node_modules/express/lib/view.js:72:13:
+      72 │     var fn = require(mod).__express;
+         ╵              ~~~~~~~
+
+
+  main.js  207.7kb
+
+
+  server.mjs                 1.0mb ⚠️
+  chunk-32ZQW4YO.mjs       503.3kb
+  chunk-5X7FPWIP.mjs        19.7kb
+  chunk-O73ZHKXN.mjs        11.8kb
+  chunk-VVCT4QZE.mjs         2.5kb
+  render-utils.server.mjs    1.4kb
+  main.server.mjs            149b 
+
+Browser bundles        
+Initial chunk files     | Names               |  Raw size | Estimated transfer size
+main.js                 | main                | 207.70 kB |                57.27 kB
+polyfills.js            | polyfills           |  32.69 kB |                10.59 kB
+styles.css              | styles              |   0 bytes |                 0 bytes
+
+                        | Initial total       | 240.39 kB |                67.86 kB
+
+
+Server bundles         
+Initial chunk files     | Names               |  Raw size
+server.mjs              | server              |   1.05 MB |                        
+chunk-32ZQW4YO.mjs      | -                   | 503.32 kB |                        
+polyfills.server.mjs    | polyfills.server    | 261.14 kB |                        
+chunk-5X7FPWIP.mjs      | -                   |  19.74 kB |                        
+chunk-VVCT4QZE.mjs      | -                   |   2.48 kB |                        
+render-utils.server.mjs | render-utils.server |   1.42 kB |                        
+main.server.mjs         | main.server         | 149 bytes |                        
+
+Lazy chunk files        | Names               |  Raw size
+chunk-O73ZHKXN.mjs      | xhr2                |  11.80 kB |                        
+
+Prerendered 1 static route.
+Output location: /home/kushal/src/angular/angularseventeen/docs
+
+Application bundle generation complete. [10.233 seconds]
+Done in 10.87s.
+```
