@@ -5620,7 +5620,7 @@
       "format": "esm"
     },
     "node_modules/@angular/core/fesm2022/core.mjs": {
-      "bytes": 1434991,
+      "bytes": 1445682,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/primitives/signals.mjs",
@@ -5646,7 +5646,7 @@
       "format": "esm"
     },
     "node_modules/@angular/common/fesm2022/common.mjs": {
-      "bytes": 284556,
+      "bytes": 284042,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -5672,7 +5672,7 @@
       "format": "esm"
     },
     "node_modules/@angular/common/fesm2022/http.mjs": {
-      "bytes": 116024,
+      "bytes": 116150,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -5749,7 +5749,7 @@
       "format": "esm"
     },
     "node_modules/@angular/router/fesm2022/router.mjs": {
-      "bytes": 279997,
+      "bytes": 280880,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -5821,7 +5821,7 @@
       "format": "esm"
     },
     "src/app/app.component.ts": {
-      "bytes": 23145,
+      "bytes": 23128,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -6142,11 +6142,6 @@
         }
       ],
       "format": "esm"
-    },
-    "node_modules/pretty-bytes/index.js": {
-      "bytes": 2552,
-      "imports": [],
-      "format": "cjs"
     },
     "node_modules/domelementtype/lib/esm/index.js": {
       "bytes": 1673,
@@ -7598,6 +7593,54 @@
       ],
       "format": "esm"
     },
+    "node_modules/postcss-media-query-parser/dist/nodes/Node.js": {
+      "bytes": 350,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/postcss-media-query-parser/dist/nodes/Container.js": {
+      "bytes": 2733,
+      "imports": [
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/nodes/Node.js",
+          "kind": "require-call",
+          "original": "./Node"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/postcss-media-query-parser/dist/parsers.js": {
+      "bytes": 11381,
+      "imports": [
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/nodes/Node.js",
+          "kind": "require-call",
+          "original": "./nodes/Node"
+        },
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/nodes/Container.js",
+          "kind": "require-call",
+          "original": "./nodes/Container"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/postcss-media-query-parser/dist/index.js": {
+      "bytes": 1579,
+      "imports": [
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/nodes/Container.js",
+          "kind": "require-call",
+          "original": "./nodes/Container"
+        },
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/parsers.js",
+          "kind": "require-call",
+          "original": "./parsers"
+        }
+      ],
+      "format": "cjs"
+    },
     "node_modules/color-name/index.js": {
       "bytes": 4613,
       "imports": [],
@@ -7720,22 +7763,12 @@
       "format": "cjs"
     },
     "node_modules/critters/dist/critters.mjs": {
-      "bytes": 51359,
+      "bytes": 54244,
       "imports": [
-        {
-          "path": "path",
-          "kind": "import-statement",
-          "external": true
-        },
         {
           "path": "fs",
           "kind": "import-statement",
           "external": true
-        },
-        {
-          "path": "node_modules/pretty-bytes/index.js",
-          "kind": "import-statement",
-          "original": "pretty-bytes"
         },
         {
           "path": "node_modules/css-select/lib/esm/index.js",
@@ -7758,9 +7791,19 @@
           "original": "dom-serializer"
         },
         {
+          "path": "path",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
           "path": "node_modules/critters/node_modules/postcss/lib/postcss.mjs",
           "kind": "import-statement",
           "original": "postcss"
+        },
+        {
+          "path": "node_modules/postcss-media-query-parser/dist/index.js",
+          "kind": "import-statement",
+          "original": "postcss-media-query-parser"
         },
         {
           "path": "node_modules/critters/node_modules/chalk/source/index.js",
@@ -10244,10 +10287,10 @@
           "bytesInOutput": 105
         },
         "node_modules/rxjs/dist/esm/internal/Subject.js": {
-          "bytesInOutput": 1976
+          "bytesInOutput": 1974
         },
         "node_modules/rxjs/dist/esm/internal/BehaviorSubject.js": {
-          "bytesInOutput": 309
+          "bytesInOutput": 308
         },
         "node_modules/rxjs/dist/esm/internal/observable/empty.js": {
           "bytesInOutput": 30
@@ -10289,10 +10332,10 @@
           "bytesInOutput": 1042
         },
         "node_modules/rxjs/dist/esm/internal/util/executeSchedule.js": {
-          "bytesInOutput": 137
+          "bytesInOutput": 138
         },
         "node_modules/rxjs/dist/esm/internal/operators/observeOn.js": {
-          "bytesInOutput": 139
+          "bytesInOutput": 142
         },
         "node_modules/rxjs/dist/esm/internal/operators/subscribeOn.js": {
           "bytesInOutput": 78
@@ -10307,10 +10350,10 @@
           "bytesInOutput": 144
         },
         "node_modules/rxjs/dist/esm/internal/scheduled/scheduleIterable.js": {
-          "bytesInOutput": 211
+          "bytesInOutput": 213
         },
         "node_modules/rxjs/dist/esm/internal/scheduled/scheduleAsyncIterable.js": {
-          "bytesInOutput": 204
+          "bytesInOutput": 206
         },
         "node_modules/rxjs/dist/esm/internal/scheduled/scheduleReadableStreamLike.js": {
           "bytesInOutput": 36
@@ -10346,10 +10389,10 @@
           "bytesInOutput": 60
         },
         "node_modules/rxjs/dist/esm/internal/observable/combineLatest.js": {
-          "bytesInOutput": 421
+          "bytesInOutput": 422
         },
         "node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js": {
-          "bytesInOutput": 379
+          "bytesInOutput": 380
         },
         "node_modules/rxjs/dist/esm/internal/operators/mergeMap.js": {
           "bytesInOutput": 128
@@ -10421,19 +10464,19 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 83612
+          "bytesInOutput": 84903
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 5763
         },
         "node_modules/@angular/common/fesm2022/http.mjs": {
-          "bytesInOutput": 7299
+          "bytesInOutput": 7369
         },
         "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs": {
           "bytesInOutput": 11628
         },
         "node_modules/@angular/router/fesm2022/router.mjs": {
-          "bytesInOutput": 62980
+          "bytesInOutput": 63069
         },
         "src/app/app.routes.ts": {
           "bytesInOutput": 10
@@ -10442,13 +10485,13 @@
           "bytesInOutput": 33
         },
         "src/app/app.component.ts": {
-          "bytesInOutput": 19938
+          "bytesInOutput": 19923
         },
         "src/main.ts": {
           "bytesInOutput": 37
         }
       },
-      "bytes": 213088
+      "bytes": 214530
     },
     "app.component.css": {
       "imports": [],
@@ -10490,7 +10533,7 @@
     "render-utils.server.mjs": {
       "imports": [
         {
-          "path": "chunk-XZZGI7US.mjs",
+          "path": "chunk-YUOL4D3B.mjs",
           "kind": "import-statement"
         },
         {
@@ -10517,11 +10560,11 @@
     "main.server.mjs": {
       "imports": [
         {
-          "path": "chunk-4UTZODQI.mjs",
+          "path": "chunk-PPOITZOR.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-XZZGI7US.mjs",
+          "path": "chunk-YUOL4D3B.mjs",
           "kind": "import-statement"
         },
         {
@@ -10540,11 +10583,11 @@
     "server.mjs": {
       "imports": [
         {
-          "path": "chunk-4UTZODQI.mjs",
+          "path": "chunk-PPOITZOR.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-XZZGI7US.mjs",
+          "path": "chunk-YUOL4D3B.mjs",
           "kind": "import-statement"
         },
         {
@@ -10922,12 +10965,12 @@
           "external": true
         },
         {
-          "path": "path",
+          "path": "fs",
           "kind": "import-statement",
           "external": true
         },
         {
-          "path": "fs",
+          "path": "path",
           "kind": "import-statement",
           "external": true
         },
@@ -10952,9 +10995,6 @@
       ],
       "entryPoint": "server.ts",
       "inputs": {
-        "node_modules/pretty-bytes/index.js": {
-          "bytesInOutput": 1154
-        },
         "node_modules/boolbase/index.js": {
           "bytesInOutput": 108
         },
@@ -11080,6 +11120,18 @@
         },
         "node_modules/critters/node_modules/postcss/lib/postcss.js": {
           "bytesInOutput": 1266
+        },
+        "node_modules/postcss-media-query-parser/dist/nodes/Node.js": {
+          "bytesInOutput": 215
+        },
+        "node_modules/postcss-media-query-parser/dist/nodes/Container.js": {
+          "bytesInOutput": 1069
+        },
+        "node_modules/postcss-media-query-parser/dist/parsers.js": {
+          "bytesInOutput": 3574
+        },
+        "node_modules/postcss-media-query-parser/dist/index.js": {
+          "bytesInOutput": 286
         },
         "node_modules/color-name/index.js": {
           "bytesInOutput": 3441
@@ -11511,7 +11563,7 @@
           "bytesInOutput": 5801
         },
         "node_modules/critters/dist/critters.mjs": {
-          "bytesInOutput": 16490
+          "bytesInOutput": 17468
         },
         "node_modules/domutils/lib/esm/index.js": {
           "bytesInOutput": 799
@@ -11637,13 +11689,13 @@
           "bytesInOutput": 699
         }
       },
-      "bytes": 1100146,
+      "bytes": 1105114,
       "ng-platform-server": true
     },
-    "chunk-4UTZODQI.mjs": {
+    "chunk-PPOITZOR.mjs": {
       "imports": [
         {
-          "path": "chunk-XZZGI7US.mjs",
+          "path": "chunk-YUOL4D3B.mjs",
           "kind": "import-statement"
         }
       ],
@@ -11652,7 +11704,7 @@
       ],
       "inputs": {
         "src/app/app.component.ts": {
-          "bytesInOutput": 19880
+          "bytesInOutput": 19865
         },
         "src/app/app.routes.ts": {
           "bytesInOutput": 9
@@ -11667,10 +11719,10 @@
           "bytesInOutput": 22
         }
       },
-      "bytes": 20215,
+      "bytes": 20200,
       "ng-platform-server": true
     },
-    "chunk-XZZGI7US.mjs": {
+    "chunk-YUOL4D3B.mjs": {
       "imports": [
         {
           "path": "chunk-VVCT4QZE.mjs",
@@ -11969,13 +12021,13 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/core.mjs": {
-          "bytesInOutput": 98595
+          "bytesInOutput": 99924
         },
         "node_modules/@angular/common/fesm2022/common.mjs": {
           "bytesInOutput": 7044
         },
         "node_modules/@angular/common/fesm2022/http.mjs": {
-          "bytesInOutput": 7301
+          "bytesInOutput": 7371
         },
         "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs": {
           "bytesInOutput": 11658
@@ -11993,10 +12045,10 @@
           "bytesInOutput": 243174
         },
         "node_modules/@angular/router/fesm2022/router.mjs": {
-          "bytesInOutput": 63219
+          "bytesInOutput": 63313
         }
       },
-      "bytes": 515823,
+      "bytes": 517316,
       "ng-platform-server": true
     },
     "chunk-O73ZHKXN.mjs": {
