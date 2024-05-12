@@ -5620,7 +5620,7 @@
       "format": "esm"
     },
     "node_modules/@angular/core/fesm2022/core.mjs": {
-      "bytes": 1450033,
+      "bytes": 1450432,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/primitives/signals.mjs",
@@ -5749,7 +5749,7 @@
       "format": "esm"
     },
     "node_modules/@angular/router/fesm2022/router.mjs": {
-      "bytes": 282199,
+      "bytes": 282440,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -10519,7 +10519,7 @@
     "render-utils.server.mjs": {
       "imports": [
         {
-          "path": "chunk-L3EGDGEE.mjs",
+          "path": "chunk-3OA7KHIO.mjs",
           "kind": "import-statement"
         },
         {
@@ -10546,11 +10546,11 @@
     "main.server.mjs": {
       "imports": [
         {
-          "path": "chunk-R7OBOA4J.mjs",
+          "path": "chunk-BPTKO4J3.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-L3EGDGEE.mjs",
+          "path": "chunk-3OA7KHIO.mjs",
           "kind": "import-statement"
         },
         {
@@ -10569,11 +10569,11 @@
     "server.mjs": {
       "imports": [
         {
-          "path": "chunk-R7OBOA4J.mjs",
+          "path": "chunk-BPTKO4J3.mjs",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-L3EGDGEE.mjs",
+          "path": "chunk-3OA7KHIO.mjs",
           "kind": "import-statement"
         },
         {
@@ -11678,10 +11678,10 @@
       "bytes": 1105114,
       "ng-platform-server": true
     },
-    "chunk-R7OBOA4J.mjs": {
+    "chunk-BPTKO4J3.mjs": {
       "imports": [
         {
-          "path": "chunk-L3EGDGEE.mjs",
+          "path": "chunk-3OA7KHIO.mjs",
           "kind": "import-statement"
         }
       ],
@@ -11708,7 +11708,7 @@
       "bytes": 20154,
       "ng-platform-server": true
     },
-    "chunk-L3EGDGEE.mjs": {
+    "chunk-3OA7KHIO.mjs": {
       "imports": [
         {
           "path": "chunk-VVCT4QZE.mjs",
